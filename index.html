@@ -1,29 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Major Project</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Major Project</title>
 
-  <!-- Font Awesome -->
+    <!-- Font Awesome -->
 
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="style.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
 
-</head>
-<body>
+    <header id="nav">
+      <div class="navDiv"><a href="">Home</a></div>
+      <div class="navDiv"><a href="">About Us</a></div>
+      <div class="navDiv"><a href="">Contact</a></div>
+      <div class="navDiv"><a href="">Explore</a></div>
 
-  <!-- Navigation Bar -->
+      <div class="buttonsDiv">
+        <button>Login</button>
+        <button>Sign up</button>
+      </div>
+    </header>
 
-  <!-- Slider Section -->
+    <!-- Slider Section -->
 
-  <!-- Main Content -->
+    <section id="slider">
+      <swiper-container
+        class="mySwiper"
+        pagination="true"
+        pagination-clickable="true"
+        navigation="true"
+        space-between="30"
+        centered-slides="true"
+        autoplay-delay="2500"
+        autoplay-disable-on-interaction="false"
+      >
+        <swiper-slide
+          ><img
+            src="./images/slider_images/Black Red Minimalist Fashion Product Introduction Landscape Banner.png"
+            alt=""
+        /></swiper-slide>
+        <swiper-slide
+          ><img
+            src="./images/slider_images/Beige Gray Aesthetic Photo Collage Shop New Collection Promotion Banner.png"
+            alt=""
+        /></swiper-slide>
+        <swiper-slide
+          ><img
+            src="./images/slider_images/Black and Beige Minimalist Black Friday Sale Banner.png"
+            alt=""
+        /></swiper-slide>
+        <swiper-slide
+          ><img
+            src="./images/slider_images/Black and White Vintage Illustration Men's Fashion Banner.png"
+            alt=""
+        /></swiper-slide>
+      </swiper-container>
+    </section>
 
-  <!-- Footer -->
-  
-  <!-- Scripts -->
+    <!-- Main Content -->
 
-  <script src="./js.js"></script>
+    <!-- Footer -->
 
-</body>
+    <!-- Scripts -->
+
+    <script src="./js.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  </body>
 </html>
