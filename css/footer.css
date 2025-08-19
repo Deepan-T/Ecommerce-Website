@@ -1,0 +1,99 @@
+#footer {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+
+#footer_main {
+    width: 90%;
+    height: 45%;
+    padding: 20px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+#footer_main > div {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#footer_main div span {
+    color: #242424;
+}
+
+.footer_head_link,
+.footer_head_link1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #000;
+}
+
+.footer_head_link {
+    font-size: large;
+    padding-bottom: 15px;
+}
+
+.footer_head_link1 {
+    font-size: small;
+}
+
+/* ===========================
+   8. Footer Base
+=========================== */
+#footer_base {
+    margin-bottom: 60px;
+
+    width: 350px;
+    height: 50px;
+    border-radius: 0.6rem;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#footer_base i {
+    font-size: 30px;
+    color: #000;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#footer_base i:hover {
+    transform: scale(1.4);
+}
+
+#footer_base i.fa-google:hover {
+    color: #DB4437;
+}
+
+#footer_base i.fa-facebook-f:hover {
+    color: #4267B2;
+}
+
+#footer_base i.fa-instagram:hover {
+    color: #E1306C;
+}
+
+#footer_base i.fa-linkedin-in:hover {
+    color: #0077B5;
+}
+
+#foot_lp {
+    position: relative;
+    bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #000;
+}
